@@ -2,8 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 
-const items = require('./routes/api/items');
-
 const app = express();
 
 // Bodyparse Middleware
